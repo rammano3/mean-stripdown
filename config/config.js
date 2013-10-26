@@ -14,7 +14,7 @@ var path = require('path')
 
 module.exports = {
   development: {
-    db: 'mongodb://localhost/ngff-dev',
+    db: 'mongodb://rammano3:morgon@paulo.mongohq.com:10063/groWeb',
     root: rootPath,
     notifier: notifier,
     app: {
