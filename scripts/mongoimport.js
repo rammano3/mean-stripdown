@@ -1,6 +1,6 @@
 // mongoimport.js
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/ngff-dev');
+mongoose.connect('mongodb://rammano3:morgon@paulo.mongohq.com:10063/groWeb');
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 
